@@ -4,7 +4,6 @@
 // 
 //  Unit tests for the Restaurant ADT
 //
-//  Author: Angelo Williams
 //  Date:	4/30/19
 //
 //--------------------------------------------------------------------
