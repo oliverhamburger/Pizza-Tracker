@@ -26,11 +26,8 @@ Restaurant.o: Restaurant.cpp Restaurant.h
 Time.o: Time.cpp Time.h
 	$(CC) -c Time.cpp Time.h
 
-CatchHeader.o: CatchHeader.cpp catch.h
-	$(CC) -c CatchHeader.cpp catch.h
-
-TestTracker: unitTests.cpp CatchHeader.o Driver.o Restaurant.o Order.o Time.o
-	$(CC) unitTests.cpp CatchHeader.o Driver.o Restaurant.o Order.o Time.o -o TestTracker
+TestTracker: unitTests.cpp Driver.o Restaurant.o Order.o Time.o
+	$(CC) unitTests.cpp Driver.o Restaurant.o Order.o Time.o -o TestTracker
 
 clean:
 	rm -f ${objects}
