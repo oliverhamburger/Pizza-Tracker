@@ -1,4 +1,0 @@
-C:\Users\oham2\.CLion2018.3\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/cygdrive/c/CSCI/CSCI 120/Final Project/Pizza_Delivery"
--- Configuring done
--- Generating done
--- Build files have been written to: /cygdrive/c/CSCI/CSCI 120/Final Project/Pizza_Delivery/cmake-build-debug

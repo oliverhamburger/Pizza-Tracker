@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Pizza_Delivery.dir/Driver.cpp.o CMakeFiles/Pizza_Delivery.dir/Order.cpp.o CMakeFiles/Pizza_Delivery.dir/Restaurant.cpp.o CMakeFiles/Pizza_Delivery.dir/Time.cpp.o CMakeFiles/Pizza_Delivery.dir/interface.cpp.o  -o Pizza_Delivery.exe -Wl,--out-implib,libPizza_Delivery.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
